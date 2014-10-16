@@ -1,0 +1,18 @@
+{
+    "basics": {
+        "name": "George Nishimura",
+        "label": "Software Developer",
+        "picture": "",
+        "email": "me@georgenishimura.com",
+        "phone": "+447478676935",
+        "website": "http://georgenishimura.com",
+        "summary": "George is a full-stack software developer interested in user experience and problem-solving. He is currently studying in his final year at Imperial College, and has previously interned at Upstatement and Microsoft.",
+        "location": {
+          "address": "40 Palace Mansions",
+          "postalCode": "W14 8QW",
+          "city": "London",
+          "countryCode": "UK",
+          "region": "London"
+        }
+    }
+}

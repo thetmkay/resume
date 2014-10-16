@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "George Nishimura",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "me@georgenishimura.com",
+    "phone": "+447478676935",
+    "website": "http://georgenishimura.com",
+    "summary": "George is a full-stack software developer interested in user experience and problem-solving. He is currently studying in his final year at Imperial College, and has previously interned at Upstatement and Microsoft.",
+    "location": {
+      "address": "40 Palace Mansions",
+      "postalCode": "W14 8QW",
+      "city": "London",
+      "countryCode": "UK",
+      "region": "London"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "thetmkay",
+      "url": "https://github.com/thetmkay/"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "",
+      "url": "https://www.linkedin.com/profile/view?id=149814893"
+    },
+    {
+      "network": "Twitter",
+      "username": "thetmkay",
+      "url": "https://twitter.com/TheTMKay"
+    }]
+  },
+  "work": [{
+    "company": "Upstatement",
+    "position": "Development Intern",
+    "website": "http://upstatement.com",
+    "startDate": "2014-04-16",
+    "endDate": "2014-09-19",
+    "summary": "5-month internship at Upstatement,Upstatement is a small web design firm in Boston specializing in building modern, responsive sites for editorial clients",
+    "highlights": [
+        "Built and maintained full-stack (front-end, back-end, server admin) for the Lattice Engines site",
+        "Created dummy post generation Wordpress plugins in PHP",
+        "Wrote open-source Javascript libraries Quickshare and Skrollr.Utilities"
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "position": "SDET Intern",
+    "website": "http://microsoft.com",
+    "startDate": "2013-07-01",
+    "endDate": "2013-09-21",
+    "summary": "12-week internship at Microsoft's Redmond Campus as part of the Surface Music Kit app team in the Windows Division",
+    "highlights": [
+        "Development of internal ASP.Net MVC web app",
+        "Windows App UI Automation and tools script authoring",
+        "Feature test owner and member of scrum"
+    ]
+    },
+      {
+    "company": "Griffins FRC Team 1884",
+    "position": "Mentor",
+    "website": "http://griffins1884.com",
+    "startDate": "2012-01-04",
+    "endDate": "2014-04-21",
+    "summary": "Annual mentoring of high school students in Team 1884, the UK's only First Robotics Competition team",
+    "highlights": [
+        "Fellowship award winner, former captain and member since 07/08",
+        "Teach strategy, engineering design, programming & electronics"
+    ],
+   {
+    "company": "American School in London",
+    "position": "Technology Assistant",
+    "website": "http://asl.org",
+    "startDate": "2012-07-09",
+    "endDate": "2012-08-17",
+    "summary": "Summer employment as part of the technology team at an international K-12 school",
+    "highlights": [
+        "Independently managed migrating Virtual Learning Environment"
+    ],
+  }],
+  "volunteer":[],
+  "education": [{
+    "institution": "Imperial College London",
+    "area": "Computing",
+    "studyType": "Undergraduate Masters of Engineering",
+    "startDate": "2011-10-01",
+    "endDate": "2015-06-28",
+    "gpa": "1st",
+    "courses": [
+      "Software Engineering", "Networks & Communication", "Human Centered Design","Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
+    ]
+  }],
+  "awards": [{
+    "title": "2nd Year Group Project",
+    "date": "2013-06-19",
+    "awarder": "Imperial College London",
+    "summary": "Comment"
+  }],
+  "publications": [],
+  "skills": [{
+    "name": "",
+    "level": "",
+    "keywords": [
+      ""
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "fluent"
+  },
+  {
+    "language": "Japanese",
+    "fluency": "Intermediate"
+  },
+  {
+    "language": "French",
+    "fluency": "Intermediate"
+  }],
+
+  "interests": [{
+    "name": "",
+    "keywords": [
+      ""
+    ]
+  }],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }]
+}
