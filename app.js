@@ -23,5 +23,5 @@ app.set('view engine', 'html');
  */
 
 app.get('/', function(req,res) {
-  res.render('index', require('./cv.json'));
+  res.render('index', require('./resume.json'));
 });
