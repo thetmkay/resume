@@ -1,0 +1,214 @@
+.resume {
+	width: 100%;
+	background-color: $white;
+	padding: 1em;
+}
+
+ .footer{
+	width: 100%;
+}
+
+$col-1-width: 75%;
+
+.col-1 {
+	width: 100%;
+	// background-color: red;
+	min-height: 500px;
+	@include mq($lg-width) {
+		width: $col-1-width;
+	}
+}
+
+.col-2 {
+	width: 100%;
+	min-height: 500px;
+	// background-color: green;
+	@include mq($lg-width) {
+		width: 100% - $col-1-width;
+	}
+}
+
+.col-1 {
+	@include mq($lg-width) {
+		&.right {
+			float: right;
+		}
+		&.left {
+			float: left;
+		}
+	}
+}
+
+//header
+
+.header {
+	margin: 0 1em;
+	padding: 1em;
+
+	background-color: green;
+	color: white;
+
+	@include mq($lg-width) {
+		padding: 1em 1em .5em 1em;
+	}
+}
+
+.footer {
+	clear: both;
+	font-size: 12px;
+	padding: 15px;
+}
+
+//lists
+
+.no-style-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-info {
+	.icon {
+		margin-right: 10px;
+	}
+}
+
+.basic-mod, .social-mod {
+	.info-item {
+		margin: 5px 0;
+	}
+}
+
+
+.basic-mod {
+	width: 100%;
+	padding-top: 1em;
+	@include mq($lg-width) {
+		padding-top: 0;
+		text-align: right;
+		display: inline-block;
+		width: 49%;
+	}
+}
+
+.name {
+		font-family: Raleway, Helvetica, sans-serif;
+		font-weight: $semi-bold;
+		text-transform: uppercase;
+		width: 100%;
+		font-size: 36px;
+
+
+		@include mq($lg-width) {
+			font-size: 48px;
+			width: 50%;
+			display: inline-block;
+		}
+
+}
+
+.social-mod {
+
+	width: 100%;
+
+	@include mq($lg-width) {
+	}
+}
+
+.basic-info {
+	// font-family: Inconsalata, monospace;
+	font-weight: $regular;
+	font-size: 14px;
+	.bullet {
+		color: #aaa;
+		margin-right: 10px;
+		min-width: 3em;
+		display: inline-block;
+	}
+
+	a, a:hover, a:visited {
+		color: white;
+	}
+}
+
+.section-title {
+	font-weight: $light;
+	font-size: 16px;
+	margin: 10px 0;
+	border-bottom: solid 1px #000;
+	text-align: right;
+	padding-right: 10px;
+	text-transform: lowercase;
+
+	@include mq($lg-width) {
+		width: 95%;
+	}
+
+}
+
+.work-block, .edu-block {
+	padding-left: 10px;
+}
+
+$skill-font-size: 14px;
+$skill-height: $skill-font-size + 4px;
+$skill-level-height: 3px;
+$skill-level-gap: 2px;
+$skill-level-width: 0.6em;
+$skill-level-total-height: (3 * $skill-level-height) + (2 * $skill-level-gap);
+$skill-level-centering: ($skill-height - $skill-level-total-height)/2;
+
+$skill-level-color: white;
+
+.skill-token-mod {
+	padding: 0.5em;
+	margin: 0.5em;
+	background-color: green;
+	color: white;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.skill-token {
+	font-size: $skill-font-size;
+	line-height: $skill-height;
+	height: $skill-height;
+	position: relative;
+	padding-right: 1em;
+
+	&.level-1, &.level-2, &.level-3 {
+		.skill-level {
+			position: absolute;
+			right: 0;
+			bottom: $skill-level-centering;
+			width: $skill-level-width;
+			height: $skill-level-height;
+			background-color: $skill-level-color;
+		}
+	}
+
+	&.level-2, &.level-3 {
+		&:after {
+			position: absolute;
+			content: " ";
+			width: $skill-level-width;
+			height: $skill-level-height;
+			background-color: $skill-level-color;
+			right: 0;
+			bottom: $skill-level-centering + $skill-level-height + $skill-level-gap;
+		}
+	}
+
+	&.level-3 {
+		&:before {
+			position: absolute;
+			content: " ";
+			width: $skill-level-width;
+			height: $skill-level-height;
+			background-color: $skill-level-color;
+			right: 0;
+			bottom: $skill-level-centering + (2 * ($skill-level-height + $skill-level-gap));
+		}
+	}
+
+}

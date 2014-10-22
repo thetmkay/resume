@@ -1,0 +1,12 @@
+<div class="edu-block">
+    <div class="block-header">
+        <div class="title">{{school.institution}}
+        </div>
+        <div class="date">
+            {{school.startDate| date("MMM YYYY")}}&nbsp;&mdash;&nbsp;{{school.endDate | date("MMM YYYY")}}
+        </div>
+    </div>
+    <div class="descr">
+        <p class="descr-summ">{{school.studyType}}{% if school.area %} in {{school.area}}{% endif %}. {% if school.gpa %}({{school.gpa}}){% endif %}</p>
+    </div>
+</div>

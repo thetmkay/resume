@@ -1,0 +1,18 @@
+<div class="work-block">
+    <div class="block-header">
+        <div class="title">{{job.company}}
+            <span class="bold">{{job.position}}</span>
+        </div>
+        <div class="date">
+            {{job.startDate| date("MMM YYYY")}}&nbsp;&mdash;&nbsp;{{job.endDate | date("MMM YYYY")}}
+        </div>
+    </div>
+    <div class="descr">
+        <p class="descr-summ">{{job.summary}}</p>
+        <ul class="descr-list">
+        {% for highlight in job.highlights %}
+            <li>{{highlight}}</li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

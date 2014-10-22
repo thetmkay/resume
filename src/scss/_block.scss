@@ -1,0 +1,55 @@
+$title-width: 70%;
+$title-height: 18px;
+
+.descr {
+	font-size: 11px;
+
+	.descr-list {
+		padding-left: 1.5em;
+	}
+
+	@include mq($lg-width) {
+		width: $title-width;
+	}
+}
+
+.block-header {
+	width: 100%;
+	text-align: center;
+
+	.title {
+		width: 100%;
+		@include mq($lg-width) {
+			width: $title-width;
+			float: left;
+		}
+	}
+
+	.date {
+		width: 100%;
+		@include mq($lg-width) {
+			width: 100% - $title-width;
+			float: right;
+			clear: right;
+		}
+	}
+
+	@include mq($lg-width) {
+		text-align: left;
+		padding-bottom: 1.5em;
+	}
+}
+
+.date {
+	font-size: 12px;
+	padding-top: 2px;
+	font-weight: $bold;
+}
+
+.title {
+	font-size: 16px;
+}
+
+.bold {
+	font-weight: $bold;
+}

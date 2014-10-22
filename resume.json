@@ -17,15 +17,15 @@
         "profiles": [{
             "network": "GitHub",
             "username": "thetmkay",
-            "url": "https://github.com/thetmkay/"
+            "url": "github.com/thetmkay/"
         }, {
             "network": "LinkedIn",
             "username": "",
-            "url": "https://www.linkedin.com/profile/view?id=149814893"
+            "url": "uk.linkedin.com/in/georgenishimura"
         }, {
             "network": "Twitter",
             "username": "thetmkay",
-            "url": "https://twitter.com/TheTMKay"
+            "url": "twitter.com/TheTMKay"
         }]
     },
     "work": [{
@@ -34,7 +34,7 @@
         "website": "http://upstatement.com",
         "startDate": "2014-04-16",
         "endDate": "2014-09-19",
-        "summary": "5-month internship at Upstatement,Upstatement is a small web design firm in Boston specializing in building modern, responsive sites for editorial clients",
+        "summary": "5-month internship at Upstatement, a web design firm in Boston specializing in building modern, responsive sites for editorial clients",
         "highlights": [
             "Built and maintained full-stack (front-end, back-end, server admin) for the Lattice Engines site",
             "Created dummy post generation Wordpress plugins in PHP",
@@ -45,7 +45,7 @@
         "position": "SDET Intern",
         "website": "http://microsoft.com",
         "startDate": "2013-07-01",
-        "endDate": "2013-09-21",
+        "endDate": "2013-09-20",
         "summary": "12-week internship at Microsoft's Redmond Campus as part of the Surface Music Kit app team in the Windows Division",
         "highlights": [
             "Development of internal ASP.Net MVC web app",
@@ -78,10 +78,21 @@
     "education": [{
         "institution": "Imperial College London",
         "area": "Computing",
-        "studyType": "Undergraduate Masters of Engineering",
+        "studyType": "Masters of Engineering (undergraduate)",
         "startDate": "2011-10-01",
         "endDate": "2015-06-28",
-        "gpa": "1st",
+        "gpa": "Predicted 1st",
+        "courses": [
+            "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
+        ]
+    },
+    {
+        "institution": "American School in London",
+        "area": "",
+        "studyType": "High School Diploma",
+        "startDate": "2001-09-04",
+        "endDate": "2011-06-17",
+        "gpa": "AP Qualifications",
         "courses": [
             "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
         ]
