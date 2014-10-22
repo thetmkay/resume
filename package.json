@@ -1,7 +1,7 @@
 {
-  "name": "nodeprototype",
+  "name": "resume",
   "version": "0.0.0",
-  "description": "nodeprototype =============",
+  "description": "resume",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thetmkay/nodeprototype.git"
+    "url": "git://github.com/thetmkay/resume.git"
   },
   "author": "thetmkay@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thetmkay/nodeprototype/issues"
+    "url": "https://github.com/thetmkay/resume/issues"
   },
-  "homepage": "https://github.com/thetmkay/nodeprototype",
+  "homepage": "https://github.com/thetmkay/resume",
   "dependencies": {
     "express": "^4.2.0",
     "nunjucks": "~1.1.0",
-    "moment": "~2.8.3"
+    "moment": "~2.8.3",
+    "consolidate": "~0.10.0"
   }
 }

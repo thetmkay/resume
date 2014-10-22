@@ -1,4 +1,4 @@
-nodeprototype
+RESUME
 =============
 
-quick build for prototyping
+Resume-building and experimentation
