@@ -15,9 +15,9 @@
             <div class="header">
                 {% include 'header.html' %}
             </div>
-            <div class="bio">
+            <!--             <div class="bio">
 
-            </div>
+            </div> -->
             <div class="col-1 right">
 
                 <div class="work-block-mod block-mod">
@@ -47,7 +47,7 @@
                 <div class="languages-mod">
                     <div class="section-title">Languages</div>
                     <ul class="no-style-list section-list">
-                    {% for language in languages %}
+                        {% for language in languages %}
                         <li>{{language.language}} ({{language.fluency | lower}})</li>
                         {% endfor %}
                     </ul>
@@ -55,7 +55,7 @@
                 <div class="interests-mod">
                     <div class="section-title">Interests</div>
                     <ul class="no-style-list section-list">
-                    	{% for interest in interests %}
+                        {% for interest in interests %}
                         <li>{{interest.name}} ({{interest.keywords[0]}})</li>
                         {% endfor %}
                     </ul>
@@ -63,15 +63,10 @@
                 <div class="links-mod">
                     <div class="section-title">Links</div>
                     <ul class="no-style-list section-list social-list">
-                        <li><a href="https://twitter.com/thetmkay" class="social-link"><i class="fa fa-home fa-lg icon website"></i>georgenishimura.com</a>
+                        {% for profile in basics.profiles %}
+                        <li><a href="http://{{profile.url}}" class="social-link"><i class="fa fa-{{profile.network | lower}} fa-lg icon {{profile.network | lower}}"></i>{{profile.url}}</a>
                         </li>
-                        <li><a href="https://uk.linkedin.com/in/georgenishimura" class="social-link"><i class="fa fa-linkedin fa-lg icon linkedin"></i>linkedin.com/in/nishimurag</a>
-                        </li>
-                        <li><a href="https://github.com/thetmkay" class="social-link"><i class="fa fa-github fa-lg icon github"></i>github.com/thetmkay</a>
-                        </li>
-                        <li><a href="https://twitter.com/thetmkay" class="social-link"><i class="fa fa-twitter fa-lg icon twitter"></i>twitter.com/thetmkay</a>
-                        </li>
-
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

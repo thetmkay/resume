@@ -9,7 +9,7 @@ $title-height: 18px;
 	}
 
 	.two-col & {
-		@include mq($lg-width) {
+		@include dualmq($lg-width-screen,$lg-width-print) {
 			width: $title-width;
 		}
 	}
@@ -22,7 +22,7 @@ $title-height: 18px;
 	.title {
 		width: 100%;
 		.two-col & {
-			@include mq($lg-width) {
+			@include dualmq($lg-width-screen,$lg-width-print) {
 				width: $title-width;
 				float: left;
 			}
@@ -31,25 +31,25 @@ $title-height: 18px;
 
 	.date {
 		width: 100%;
-		@include mq($lg-width) {
+		@include dualmq($lg-width-screen,$lg-width-print) {
 			width: 100% - $title-width;
 			float: right;
 			clear: right;
 		}
 	}
 
-	@include mq($lg-width) {
+	@include dualmq($lg-width-screen,$lg-width-print) {
 		text-align: left;
 	}
 
 	.full-width & {
-		@include mq($lg-width) {
+		@include dualmq($lg-width-screen,$lg-width-print) {
 			// padding-bottom: 1em;
 		}
 	}
 
 	.two-col  & {
-		@include mq($lg-width) {
+		@include dualmq($lg-width-screen,$lg-width-print) {
 			padding-bottom: 1.5em;
 		}
 	}

@@ -15,17 +15,21 @@
             "region": "London"
         },
         "profiles": [{
-            "network": "GitHub",
+            "network": "Home",
             "username": "thetmkay",
-            "url": "github.com/thetmkay/"
-        }, {
+            "url": "georgenishimura.com"
+        },{
             "network": "LinkedIn",
             "username": "",
-            "url": "uk.linkedin.com/in/georgenishimura"
+            "url": "linkedin.com/in/nishimurag"
+        }, {
+            "network": "GitHub",
+            "username": "thetmkay",
+            "url": "github.com/thetmkay"
         }, {
             "network": "Twitter",
             "username": "thetmkay",
-            "url": "twitter.com/TheTMKay"
+            "url": "twitter.com/thetmkay"
         }]
     },
     "work": [{
@@ -82,7 +86,7 @@
         "studyType": "High School Diploma",
         "startDate": "2001-09-04",
         "endDate": "2011-06-17",
-        "gpa": "10 AP Exams (all score 5)",
+        "gpa": "10 AP Exams - all score 5",
         "courses": [
             "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
         ]
