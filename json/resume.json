@@ -140,7 +140,10 @@
         ]
     }, {
         "name": "Ultimate Frisbee",
-        "keywords": ["Imperial discDoctors"]
+        "keywords": ["ICL discDoctors"]
+    }, {
+        "name": "Hackathons",
+        "keywords": []
     }],
     "references": []
 }
