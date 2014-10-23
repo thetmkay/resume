@@ -1,11 +1,11 @@
 {
-    "HTML":"advanced",
+    "HTML":"master",
     "Jade":"moderate",
     "Twig":"moderate",
     "Javascript":"master",
     "Coffeescript":"moderate",
     "CSS":"advanced",
-    "Sass":"advanced",
+    "Sass":"master",
     "Stylus":"advanced",
     "Java":"master",
     "C":"advanced",
