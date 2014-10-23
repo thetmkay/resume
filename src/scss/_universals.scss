@@ -18,3 +18,13 @@ a {
 * {
 	box-sizing: border-box;
 }
+
+
+@mixin link($color) {
+	color: $color;
+}
+
+.link {
+	@include link($link-blue);
+}
+

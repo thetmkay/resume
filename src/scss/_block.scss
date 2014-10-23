@@ -1,4 +1,4 @@
-$title-width: 70%;
+$title-width: 75%;
 $title-height: 18px;
 
 .descr {
@@ -8,8 +8,10 @@ $title-height: 18px;
 		padding-left: 1.5em;
 	}
 
-	@include mq($lg-width) {
-		width: $title-width;
+	.two-col & {
+		@include mq($lg-width) {
+			width: $title-width;
+		}
 	}
 }
 
@@ -19,9 +21,11 @@ $title-height: 18px;
 
 	.title {
 		width: 100%;
-		@include mq($lg-width) {
-			width: $title-width;
-			float: left;
+		.two-col & {
+			@include mq($lg-width) {
+				width: $title-width;
+				float: left;
+			}
 		}
 	}
 
@@ -36,9 +40,21 @@ $title-height: 18px;
 
 	@include mq($lg-width) {
 		text-align: left;
-		padding-bottom: 1.5em;
+	}
+
+	.full-width & {
+		@include mq($lg-width) {
+			// padding-bottom: 1em;
+		}
+	}
+
+	.two-col  & {
+		@include mq($lg-width) {
+			padding-bottom: 1.5em;
+		}
 	}
 }
+
 
 .date {
 	font-size: 12px;

@@ -1,14 +1,15 @@
 .resume {
 	width: 100%;
 	background-color: $white;
-	padding: 1em;
+	// padding: 1em;
 }
 
  .footer{
 	width: 100%;
+	text-align: center;
 }
 
-$col-1-width: 75%;
+$col-1-width: 70%;
 
 .col-1 {
 	width: 100%;
@@ -20,6 +21,7 @@ $col-1-width: 75%;
 }
 
 .col-2 {
+	padding: 0 0.5em;
 	width: 100%;
 	min-height: 500px;
 	// background-color: green;
@@ -32,9 +34,11 @@ $col-1-width: 75%;
 	@include mq($lg-width) {
 		&.right {
 			float: right;
+			padding-right: 10px;
 		}
 		&.left {
 			float: left;
+			padding-left: 10px;
 		}
 	}
 }
@@ -42,15 +46,25 @@ $col-1-width: 75%;
 //header
 
 .header {
-	margin: 0 1em;
-	padding: 1em;
-
-	background-color: green;
-	color: white;
-
+	// margin: 0 1em;
+	// padding: 1em 0;
+	text-align: center;
+	// background-color: green;
+	// color: white;
+	width: 100%;
 	@include mq($lg-width) {
-		padding: 1em 1em .5em 1em;
+		width: 70%;
+		margin-left: 30%;
+		text-align: right;
+		padding-right: 10px;
+		// padding: 1em 1em .5em 1em;
 	}
+}
+
+.bio {
+	font-size: 12px;
+	width: 100%;
+	padding: 1em;
 }
 
 .footer {
@@ -67,33 +81,63 @@ $col-1-width: 75%;
 	margin: 0;
 }
 
-.social-info {
+.social-link {
+
+	@extend .link;
+
 	.icon {
+		// color: #999;
 		margin-right: 10px;
-	}
-}
-
-.basic-mod, .social-mod {
-	.info-item {
-		margin: 5px 0;
-	}
-}
-
-
-.basic-mod {
-	width: 100%;
-	padding-top: 1em;
-	@include mq($lg-width) {
-		padding-top: 0;
-		text-align: right;
+		background-color: $link-blue;
 		display: inline-block;
-		width: 49%;
+		color: white;
+		padding: 7px 5px 7px 6px;
+		border-radius: 50%;
 	}
 }
+
+.social-list li {
+	margin: 5px 0;
+}
+
+.social-link {
+	.twitter {
+		background-color: #55acee;
+	}
+
+	.website {
+		background-color: green;
+	}
+
+	.github {
+		background-color: #666;
+	}
+	.linkedin {
+		background-color: #0976b4;
+	}
+}
+
+// .basic-mod, .social-mod {
+// 	.info-item {
+// 		margin: 5px 0;
+// 	}
+// }
+
+
+// .basic-mod {
+// 	width: 100%;
+// 	padding-top: 1em;
+// 	@include mq($lg-width) {
+// 		padding-top: 0;
+// 		text-align: right;
+// 		display: inline-block;
+// 		width: 49%;
+// 	}
+// }
 
 .name {
 		font-family: Raleway, Helvetica, sans-serif;
-		font-weight: $semi-bold;
+		font-weight: $light;
 		text-transform: uppercase;
 		width: 100%;
 		font-size: 36px;
@@ -101,10 +145,14 @@ $col-1-width: 75%;
 
 		@include mq($lg-width) {
 			font-size: 48px;
-			width: 50%;
+			// width: 50%;
 			display: inline-block;
 		}
 
+}
+
+.basic-row {
+	font-weight: 200;
 }
 
 .social-mod {
@@ -115,21 +163,21 @@ $col-1-width: 75%;
 	}
 }
 
-.basic-info {
-	// font-family: Inconsalata, monospace;
-	font-weight: $regular;
-	font-size: 14px;
-	.bullet {
-		color: #aaa;
-		margin-right: 10px;
-		min-width: 3em;
-		display: inline-block;
-	}
+// .basic-info {
+// 	// font-family: Inconsalata, monospace;
+// 	font-weight: $regular;
+// 	font-size: 14px;
+// 	.bullet {
+// 		color: #aaa;
+// 		margin-right: 10px;
+// 		min-width: 3em;
+// 		display: inline-block;
+// 	}
 
-	a, a:hover, a:visited {
-		color: white;
-	}
-}
+// 	a, a:hover, a:visited {
+// 		color: black;
+// 	}
+// }
 
 .section-title {
 	font-weight: $light;
@@ -141,74 +189,26 @@ $col-1-width: 75%;
 	text-transform: lowercase;
 
 	@include mq($lg-width) {
-		width: 95%;
+		width: 100%;
 	}
 
 }
 
-.work-block, .edu-block {
+.section-list {
+	font-size: 12px;
+	padding-left: 0.5em;
+}
+
+.block{
+	padding: 0 10px;
+}
+.block-mod {
 	padding-left: 10px;
 }
 
-$skill-font-size: 14px;
-$skill-height: $skill-font-size + 4px;
-$skill-level-height: 3px;
-$skill-level-gap: 2px;
-$skill-level-width: 0.6em;
-$skill-level-total-height: (3 * $skill-level-height) + (2 * $skill-level-gap);
-$skill-level-centering: ($skill-height - $skill-level-total-height)/2;
-
-$skill-level-color: white;
-
-.skill-token-mod {
-	padding: 0.5em;
-	margin: 0.5em;
-	background-color: green;
-	color: white;
-	border-radius: 3px;
-	display: inline-block;
-}
-
-.skill-token {
-	font-size: $skill-font-size;
-	line-height: $skill-height;
-	height: $skill-height;
-	position: relative;
-	padding-right: 1em;
-
-	&.level-1, &.level-2, &.level-3 {
-		.skill-level {
-			position: absolute;
-			right: 0;
-			bottom: $skill-level-centering;
-			width: $skill-level-width;
-			height: $skill-level-height;
-			background-color: $skill-level-color;
-		}
-	}
-
-	&.level-2, &.level-3 {
-		&:after {
-			position: absolute;
-			content: " ";
-			width: $skill-level-width;
-			height: $skill-level-height;
-			background-color: $skill-level-color;
-			right: 0;
-			bottom: $skill-level-centering + $skill-level-height + $skill-level-gap;
-		}
-	}
-
-	&.level-3 {
-		&:before {
-			position: absolute;
-			content: " ";
-			width: $skill-level-width;
-			height: $skill-level-height;
-			background-color: $skill-level-color;
-			right: 0;
-			bottom: $skill-level-centering + (2 * ($skill-level-height + $skill-level-gap));
-		}
-	}
-
+.skill-name {
+	font-weight: $light;
+	font-size: 14px;
+	text-transform: lowercase;
+	// width: 100%;
 }

@@ -44,10 +44,5 @@
     "Kanban":"moderate",
     "Scrum":"advanced",
     "BDD":"moderate",
-    "Code Review":"moderate",
-    "Python":"moderate",
-    "Ruby":"moderate",
-    "Xcode":"moderate",
-    "Nunjucks":"advanced",
-    "iOS":"moderate"
+    "Code Review":"moderate"
 }

@@ -1,7 +1,7 @@
-$page-width: em(800px);
-$lg-width: em(500px);
+$page-width: 800px;
+$lg-width: 500px;
 
-$bg-color: #444;
+$bg-color: #85A29E;
 $white: #fff;
 
 $body-font: 'Open Sans';
@@ -11,3 +11,11 @@ $bold: 700;
 $light: 200;
 $semi-bold: 600;
 $regular: 400;
+
+$green: #36802D;
+$light-green: lighten($green, 5);
+$dark-green: darken($green, 5);
+$txt-black: #111;
+$grey: #85A29E;
+$pastel-blue:#4E9689;
+$link-blue: #0976b4;

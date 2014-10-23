@@ -36,8 +36,8 @@
         "endDate": "2014-09-19",
         "summary": "5-month internship at Upstatement, a web design firm in Boston specializing in building modern, responsive sites for editorial clients",
         "highlights": [
-            "Built and maintained full-stack (front-end, back-end, server admin) for the Lattice Engines site",
-            "Created dummy post generation Wordpress plugins in PHP",
+            "Built and maintained full WordPress stack for Lattice Engines",
+            "Implemented complex interactive designs in Sass, Javascript and HTML",
             "Wrote open-source Javascript libraries Quickshare and Skrollr.Utilities"
         ]
     }, {
@@ -61,17 +61,8 @@
         "summary": "Annual mentoring of high school students in Team 1884, the UK's only First Robotics Competition team",
         "highlights": [
             "Fellowship award winner, former captain and member since 07/08",
-            "Teach strategy, engineering design, programming & electronics"
-        ]
-    }, {
-        "company": "American School in London",
-        "position": "Technology Assistant",
-        "website": "http://asl.org",
-        "startDate": "2012-07-09",
-        "endDate": "2012-08-17",
-        "summary": "Summer employment as part of the technology team at an international K-12 school",
-        "highlights": [
-            "Independently managed migrating Virtual Learning Environment"
+            "Teach strategy, engineering design, programming & electronics",
+            "Six-week build season followed by a competition in the US"
         ]
     }],
     "volunteer": [],
@@ -85,47 +76,52 @@
         "courses": [
             "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
         ]
-    },
-    {
+    }, {
         "institution": "American School in London",
         "area": "",
         "studyType": "High School Diploma",
         "startDate": "2001-09-04",
         "endDate": "2011-06-17",
-        "gpa": "AP Qualifications",
+        "gpa": "10 AP Exams (all score 5)",
         "courses": [
             "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
         ]
     }],
     "awards": [{
-        "title": "2nd Year Group Project",
+        "title": "2nd Year Group Project Prize Winner",
         "date": "2013-06-19",
-        "awarder": "Imperial College London",
-        "summary": "Comment"
+        "awarder": "IBM",
+        "summary": "For commentTree, a MEAN (Mongo-Express-Angular-Node) web app to provide a richer interactive experience to live text commentaries (<a href=\"#\" class=\"link\">georgenishimura.com/commenttree</a>)"
     }],
     "publications": [],
     "skills": [{
-        "name": "Web Development",
-        "level": "Moderate",
-        "keywords": [
-            "HTML", "Javascript", "CSS", "Sass", "Nunjucks", "Jade", "CoffeeScript"
-        ]
-    }, {
         "name": "Languages",
         "level": "Moderate",
         "keywords": [
-            "Java", "Haskell", "C/C++", "C#", "Python", "Ruby", "Assembly", "PostgreSQL", ".NET"
+            "HTML", "Javascript", "Sass", "Java",  "C","C++", "C#","PostgreSQL", "Python", "Ruby", "Assembly", "Haskell"
+        ]
+    }, {
+        "name": "Frameworks",
+        "level": "Moderate",
+        "keywords": [
+            "Node.js", "jQuery", "Angular", "Grunt", "Express", "WordPress",  "Mongo", "Meteor", "iOS", "ASP.NET"
         ]
     }, {
         "name": "Tools",
         "level": "Moderate",
         "keywords": [
-            "Unix", "Sublime Text", "Eclipse", "Microsoft Office", "Google Docs", "Photoshop", "inDesign"
+            "Unix", "Sublime Text", "Xcode", "Eclipse", "Microsoft Office", "Photoshop","Git", "Vim"
+        ]
+    }, {
+        "name": "Processes",
+        "level": "Moderate",
+        "keywords": [
+            "Scrum", "BDD", "XP"
         ]
     }],
     "languages": [{
         "language": "English",
-        "fluency": "fluent"
+        "fluency": "Native"
     }, {
         "language": "Japanese",
         "fluency": "Intermediate"

@@ -1,0 +1,43 @@
+@media print{
+    @page {
+        margin: 0.8cm;
+    }
+    .header {
+	width: 70%;
+	margin-left: 30%;
+	.name {
+		font-size: 40px;
+	}
+    }
+    .link {
+        @include link($txt-black);
+    }
+    .social-link {
+        .icon {
+            color: $txt-black;
+            background: none;
+            padding: 0;
+            margin-right: 5px;
+            font-size: 1em;
+        }
+    }
+    .skill-token {
+    	color: $txt-black;
+
+	// @include skill-token(green);
+    }
+    .skills-block {
+    	// @include gradient-tokens(white);
+    }
+    .skill-token-mod {
+    	background: none;
+    	border: solid 1px black;
+    	padding: 2px 5px;
+    }
+    .skill-name {
+		padding: 0.25em 0;
+    }
+    .screen-only {
+    	display: none;
+    }
+}

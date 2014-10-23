@@ -12,9 +12,12 @@ var app = module.exports = express();
  */
 
 var env = new nunjucks.Environment(new nunjucks.FileSystemLoader('views'));
+
 env.addFilter('date', function(date, format) {
   return moment(date).format(format);
 });
+
+
 env.express(app);
 
 // all environments
@@ -31,6 +34,11 @@ app.set('view engine', 'html');
  * Routes
  */
 
+var resumeJSON = require('./json/resume.json');
+
+resumeJSON['levels'] = require('./json/skills.json');
+resumeJSON['links'] = require('./json/links.json');
+
 app.get('/', function(req,res) {
-  res.render('index', require('./resume.json'));
+  res.render('index', resumeJSON);
 });
