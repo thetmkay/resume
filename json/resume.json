@@ -114,7 +114,7 @@
         "name": "Tools",
         "level": "Moderate",
         "keywords": [
-            "Unix", "Sublime Text", "Xcode", "Eclipse", "Microsoft Office", "Photoshop","Git", "Vim"
+            "Unix", "Sublime Text", "Git", "Xcode", "Eclipse", "Vim", "Microsoft Office", "Photoshop"
         ]
     }, {
         "name": "Processes",
