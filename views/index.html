@@ -62,7 +62,7 @@
                 </div>
                 <div class="links-mod">
                     <div class="section-title">Links</div>
-                    <ul class="no-style-list section-list social-list">
+                    <ul class="section-list social-list">
                         {% for profile in basics.profiles %}
                         <li><a href="http://{{profile.url}}" class="social-link"><i class="fa fa-{{profile.network | lower}} fa-lg icon {{profile.network | lower}}"></i>{{profile.url}}</a>
                         </li>
