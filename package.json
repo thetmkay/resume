@@ -23,9 +23,7 @@
     "express": "^4.2.0",
     "grunt": "^0.4.5",
     "moment": "~2.8.3",
-    "nunjucks": "~1.1.0"
-  },
-  "peerDependencies": {
+    "nunjucks": "~1.1.0",
     "grunt-concurrent": "^1.0.0",
     "grunt-contrib-compass": "^1.0.1",
     "grunt-contrib-watch": "^0.6.1",
