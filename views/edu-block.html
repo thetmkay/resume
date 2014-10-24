@@ -7,7 +7,6 @@
         </div>
     </div>
     <div class="descr">
-        <p class="descr-summ">{{school.studyType}}{% if school.area %} in {{school.area}}{% endif %}. {% if school.gpa %}({{school.gpa}}){% endif %}</p>
-       {% if school.courses | length %} <p class="descr-summ">Modules include: <span class="italics">{{ school.courses | join(", ") }}</span></p>{% endif %}
+        <p class="descr-summ">{{school.studyType}}{% if school.area %} in {{school.area}}{% endif %}. {% if school.gpa %}({{school.gpa}}){% endif %}. {% if school.courses | length %}Modules include: <span class="italics">{{ school.courses | join(", ") }}</span></p>{% endif %}</p>
     </div>
 </div>
