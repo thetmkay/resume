@@ -60,6 +60,8 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['compass']);
     grunt.registerTask('default', ['env:dev', 'build', 'concurrent:dev']);
     grunt.registerTask('production', ['env:prod', 'build', 'concurrent:prod']);
-    grunt.registerTask('sub', ['build','watch:compass']);
+    grunt.registerTask('sub:build', ['build']);
+    grunt.registerTask('sub:watch', ['watch']);
+
 
 }
