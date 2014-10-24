@@ -91,10 +91,10 @@ $skill-level-color: white;
 @mixin skill-token-animation($color, $animationname, $endtime) {
 	@include keyframes ($animationname) {
 		0% {
-			background: transparent;
+			background: rgba(0,0,0,0.3);
 		}
-		#{($endtime - 1)}{
-			background: transparent;
+		#{($endtime - 5)}{
+			background: rgba(0,0,0,0.4);
 		}
 		#{$endtime}{
 			background: $color;
