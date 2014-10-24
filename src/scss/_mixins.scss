@@ -774,13 +774,13 @@ $placeholders: '-webkit-input-placeholder',
 }
 
 @mixin keyframes($name) {
-  @-webkit-keyframes $name {
+  @-webkit-keyframes #{$name} {
 	@content;
   }
-  @-moz-keyframes $name {
+  @-moz-keyframes #{$name} {
     @content;
   }
-  @keyframes $name {
+  @keyframes #{$name} {
     @content;
   }
 }

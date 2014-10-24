@@ -17,14 +17,26 @@ $skill-level-color: white;
 
 	.skill-token-mod.advanced{
 		background-color: $color;
+
+		&:hover {
+			background-color: darken($color, 7);
+		}
 	}
 
 	.skill-token-mod.master {
 		background-color: lighten($color, 7);
+
+		&:hover {
+			background-color: $color;
+		}
 	}
 
 	.skill-token-mod.moderate {
 		background-color: darken($color, 7);
+
+		&:hover {
+			background-color: darken($color, 14);
+		}
 	}
 }
 
@@ -42,6 +54,11 @@ $skill-level-color: white;
 		.skill-token-mod {
 			color: white;
 			background-color: #E33258;
+
+			&:hover {
+				pointer: cursor;
+				background-color: darken(#E33258, 7);
+			}
 		}
 	}
 
@@ -50,6 +67,11 @@ $skill-level-color: white;
 		.skill-token-mod {
 			color: white;
 			background-color: #F59330;
+
+			&:hover {
+				pointer: cursor;
+				background-color: darken(#F59330, 7);
+			}
 		}
 	}
 
@@ -66,7 +88,55 @@ $skill-level-color: white;
 	// border-bottom: solid 2px darken(green, 5);
 }
 
+@mixin skill-token-animation($color, $animationname, $endtime) {
+	@include keyframes ($animationname) {
+		0% {
+			background: transparent;
+		}
+		#{($endtime - 1)}{
+			background: transparent;
+		}
+		#{$endtime}{
+			background: $color;
+		}
+
+		100%{
+			background: $color;
+		}
+	}
+}
+
 @mixin skill-token($color) {
+
+	&:hover {
+
+		cursor: pointer;
+
+		.moderate &, .advanced &, .master & {
+			.skill-level {
+				// background: transparent;
+				@include skill-token-animation($skill-level-color, #{$color}three, 33%);
+				@include animation(#{$color}three 0.5s ease-in  0);
+			}
+		}
+
+		.advanced &, .master & {
+			&:after {
+				// background: transparent;
+				@include skill-token-animation($skill-level-color, #{$color}two, 66%);
+				@include animation(#{$color}two 0.5s ease-in  0s);
+			}
+		}
+
+		.master & {
+			&:before {
+				// background: transparent;
+
+				@include skill-token-animation($skill-level-color, #{$color}one, 100%);
+				@include animation(#{$color}one 0.5s ease-in  0s);
+			}
+		}
+	}
 
 	.moderate &, .advanced &, .master & {
 

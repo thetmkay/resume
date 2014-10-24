@@ -78,7 +78,7 @@
         "endDate": "2015-06-28",
         "gpa": "Predicted 1st",
         "courses": [
-            "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
+            "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Machine Learning"
         ]
     }, {
         "institution": "American School in London",
@@ -86,10 +86,8 @@
         "studyType": "High School Diploma",
         "startDate": "2001-09-04",
         "endDate": "2011-06-17",
-        "gpa": "10 AP Exams - all score 5",
-        "courses": [
-            "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Hardware & Architecture", "Operating Systems", "Concurrency"
-        ]
+        "gpa": "10 AP Exams of Score 5",
+        "courses":[]
     }],
     "awards": [{
         "title": "2nd Year Group Project Prize Winner",
