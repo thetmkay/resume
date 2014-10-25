@@ -5,6 +5,8 @@
 var app = require('./app'),
     http = require('http');
 
+app.set('port', process.env.PORT || 3000);
+
 
 /**
  * Start Server

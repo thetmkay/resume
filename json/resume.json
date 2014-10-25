@@ -93,7 +93,12 @@
         "title": "2nd Year Group Project Prize Winner",
         "date": "2013-06-19",
         "awarder": "IBM",
-        "summary": "For commentTree, a MEAN (Mongo-Express-Angular-Node) web app to provide a richer interactive experience to live text commentaries (<a href=\"#\" class=\"link\">georgenishimura.com/commenttree</a>)"
+        "summary": "For commentTree, a MEAN (Mongo-Express-Angular-Node) web app to provide a richer interactive experience to live text commentaries (<a href=\"http://georgenishimura.com/commenttree\" class=\"link\">georgenishimura.com/commenttree</a>)"
+    },{
+        "title": "Most Commerically Viable Product",
+        "date": "2014-03-09",
+        "awarder": "Playfair Capital ",
+        "summary": "For subbr at <a href=\"http://ichack.org\" class=\"link\">ICHack</a>, a Google Glass app that displayed subtitles (<a href=\"http://georgenishimura.com/subbr\" class=\"link\">georgenishimura.com/subbr</a>)"
     }],
     "publications": [],
     "skills": [{
