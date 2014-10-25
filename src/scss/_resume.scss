@@ -184,6 +184,11 @@ $col-1-width: 70%;
 }
 
 .block{
+
+	&.award-block {
+		padding: 0 10px;
+	}
+
 	padding: 0 10px 10px 10px;
 }
 .block-mod {
