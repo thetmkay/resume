@@ -1,0 +1,13 @@
+@import "gn/footer";
+
+.footer {
+	border-top: solid 2px darken($link-blue, 10);
+}
+
+.ftr-link, , .ftr-link:active, .ftr-link:visited {
+	color: lighten($link-blue,5);
+
+	&:hover {
+		color: $link-blue;
+	}
+}
