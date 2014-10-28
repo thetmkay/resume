@@ -1,0 +1,20 @@
+@import "gn/header";
+
+.nav-link:hover {
+
+	background-color: #ddd;
+
+	@include mq($nav-collapse-width) {
+		background-color: #fff;
+	}
+
+	border-bottom: solid 2px darken($link-blue, 10);
+}
+
+.open-menu .nav-menu-trigger {
+	color: #aaa;
+}
+
+.nav-menu-trigger {
+	@extend .link;
+}
