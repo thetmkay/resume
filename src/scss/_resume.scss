@@ -1,4 +1,8 @@
-.resume {
+.nav-link:hover {
+	border-bottom: solid 2px $link-blue;
+}
+
+.resume-mod {
 	width: 100%;
 	background-color: $white;
 	// padding: 1em;
