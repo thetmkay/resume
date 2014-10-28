@@ -28,7 +28,8 @@
     "grunt-contrib-compass": "^1.0.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-env": "^0.4.2",
-    "grunt-nodemon": "^0.3.0"
+    "grunt-nodemon": "^0.3.0",
+    "components":"thetmkay/gn-components"
   },
   "devDependencies": {
     "grunt-node-inspector": "^0.1.5"

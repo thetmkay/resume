@@ -11,7 +11,7 @@ var app = module.exports = express();
  * Configuration
  */
 
-var env = new nunjucks.Environment(new nunjucks.FileSystemLoader(path.join(__dirname,'views')));
+var env = new nunjucks.Environment(new nunjucks.FileSystemLoader([path.join(__dirname,'views'), path.join(__dirname, 'node_modules', 'gn_components', 'views')]));
 
 env.addFilter('date', function(date, format) {
   return moment(date).format(format);

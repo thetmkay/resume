@@ -2,7 +2,7 @@
     @page {
         margin: 0.8cm;
     }
-    .header {
+    .resume-hdr {
 	width: 70%;
 	margin-left: 30%;
 	.name {
@@ -40,7 +40,7 @@
     .block {
         padding: 0 10px;
     }
-    .screen-only {
+    .screen-only, .header {
     	display: none;
     }
 }
