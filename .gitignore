@@ -1,5 +1,5 @@
 node_modules/
 config.js
-public/
+public/css/
 .sass-cache/
 .DS_Store
