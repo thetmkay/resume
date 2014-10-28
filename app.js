@@ -42,6 +42,7 @@ var resumeJSON = require('./json/resume.json');
 
 resumeJSON['levels'] = require('./json/skills.json');
 resumeJSON['links'] = require('./json/links.json');
+resumeJSON['acknowledgements'] = require('./json/footer.json').acknowledgements;
 
 app.get('/', function(req,res) {
   res.render('index', resumeJSON);
