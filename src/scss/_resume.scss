@@ -1,5 +1,5 @@
 .nav-link:hover {
-	border-bottom: solid 2px $link-blue;
+	border-bottom: solid 2px darken($link-blue, 10);
 }
 
 .resume-mod {
