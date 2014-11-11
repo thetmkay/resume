@@ -43,21 +43,21 @@ $skill-level-color: white;
 @media screen {
 
 	.skills-block.languages {
-		@include gradient-tokens(#36802D);
+		@include gradient-tokens($green);
 	}
 
 	.skills-block.frameworks {
-		@include gradient-tokens(#029DAF);
+		@include gradient-tokens($blue);
 	}
 
 	.skills-block.tools {
 		.skill-token-mod {
 			color: white;
-			background-color: #E33258;
+			background-color: $pink;
 
 			&:hover {
 				pointer: cursor;
-				background-color: darken(#E33258, 7);
+				background-color: darken($pink, 7);
 			}
 		}
 	}
@@ -66,11 +66,11 @@ $skill-level-color: white;
 
 		.skill-token-mod {
 			color: white;
-			background-color: #F59330;
+			background-color: $orange;
 
 			&:hover {
 				pointer: cursor;
-				background-color: darken(#F59330, 7);
+				background-color: darken($orange, 7);
 			}
 		}
 	}

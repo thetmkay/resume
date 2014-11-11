@@ -1,0 +1,57 @@
+<div class="resume-mod">
+    <div class="resume-hdr">
+        {% include 'resume-hdr.html' %}
+    </div>
+    <div class="col-1">
+        <div class="work-block-mod block-mod">
+            <div class="section-title">Work</div>
+            {% for job in work %} {% include 'work-block.html' %} {% endfor %}
+        </div>
+        <div class="edu-block-mod block-mod">
+            <div class="section-title">Education</div>
+            {% for school in education %} {% include 'edu-block.html' %} {% endfor %}
+        </div>
+        <div class="award-block-mod block-mod">
+            <div class="section-title">Awards</div>
+            {% for award in awards %} {% include 'award-block.html' %} {% endfor %}
+        </div>
+    </div>
+    <div class="col-2 left">
+        <div class="skills-block-mod">
+            <div class="section-title">Skills</div>
+            <span class="skill-level-key">(A)dvanced (M)oderate (N)ovice</span>
+            {% for skill in skills %}
+            <div class="skills-block {{skill.name | lower}}">
+                <div class="skill-name"># {{skill.name}}</div>
+                {% for word in skill.keywords %} {% include 'skill-token.html' %} {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="languages-mod">
+            <div class="section-title">Languages</div>
+            <ul class="no-style-list section-list">
+                {% for language in languages %}
+                <li>{{language.language}} ({{language.fluency | lower}})</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="interests-mod">
+            <div class="section-title">Interests</div>
+            <ul class="no-style-list section-list">
+                {% for interest in interests %}
+                <li>{{interest.name}} {% if interest.keywords | length %}({{interest.keywords[0]}}) {% endif %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="links-mod">
+            <div class="section-title">Links</div>
+            <ul class="section-list social-list">
+                {% for profile in basics.profiles %}
+                <li><a href="http://{{profile.url}}" class="social-link"><i class="fa fa-{{profile.network | lower}} fa-lg icon {{profile.network | lower}}"></i>{{profile.url}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="resume-footer">References are available upon request. See this resume at <a href="{{basics.website}}" class="link">{{basics.website}}</a>.</div>
+</div>

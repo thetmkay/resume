@@ -18,3 +18,9 @@
 .nav-menu-trigger {
 	@extend .link;
 }
+
+.header {
+	@include mq($nav-collapse-width) {
+		border-bottom: solid 2px #ddd;
+	}
+}
