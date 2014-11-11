@@ -105,7 +105,7 @@
         "name": "Languages",
         "level": "Moderate",
         "keywords": [
-            "HTML", "Javascript", "Sass", "Java",  "C","C++", "Haskell", "Python", "C#","PostgreSQL", "Ruby", "Assembly"
+            "HTML", "Javascript", "Sass", "Java",  "C","C++", "Haskell", "Python", "C#", "PostgreSQL","Ruby", "Assembly"
         ]
     }, {
         "name": "Frameworks",
@@ -117,7 +117,7 @@
         "name": "Tools",
         "level": "Moderate",
         "keywords": [
-            "Unix", "Sublime Text", "Git", "Xcode", "Eclipse", "Vim", "Microsoft Office", "Photoshop"
+            "Git", "Sublime Text", "Unix", "Xcode", "Eclipse", "Vim", "Office", "Photoshop"
         ]
     }, {
         "name": "Processes",
