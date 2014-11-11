@@ -15,7 +15,7 @@ $skill-level-color: white;
 		color: $txt-color;
 	}
 
-	.skill-token-mod.advanced{
+	.skill-token-mod.moderate{
 		background-color: $color;
 
 		&:hover {
@@ -23,7 +23,7 @@ $skill-level-color: white;
 		}
 	}
 
-	.skill-token-mod.master {
+	.skill-token-mod.advanced {
 		background-color: lighten($color, 7);
 
 		&:hover {
@@ -31,7 +31,7 @@ $skill-level-color: white;
 		}
 	}
 
-	.skill-token-mod.moderate {
+	.skill-token-mod.novice {
 		background-color: darken($color, 7);
 
 		&:hover {
@@ -112,7 +112,7 @@ $skill-level-color: white;
 
 		cursor: pointer;
 
-		.moderate &, .advanced &, .master & {
+		.novice &, .moderate &, .advanced & {
 			.skill-level {
 				// background: transparent;
 				@include skill-token-animation($skill-level-color, #{$color}three, 33%);
@@ -120,7 +120,7 @@ $skill-level-color: white;
 			}
 		}
 
-		.advanced &, .master & {
+		.moderate &, .advanced & {
 			&:after {
 				// background: transparent;
 				@include skill-token-animation($skill-level-color, #{$color}two, 66%);
@@ -128,7 +128,7 @@ $skill-level-color: white;
 			}
 		}
 
-		.master & {
+		.advanced & {
 			&:before {
 				// background: transparent;
 
@@ -138,7 +138,7 @@ $skill-level-color: white;
 		}
 	}
 
-	.moderate &, .advanced &, .master & {
+	.novice &, .moderate &, .advanced & {
 
 		padding-right: 1em;
 
@@ -152,7 +152,7 @@ $skill-level-color: white;
 		}
 	}
 
-	.advanced &, .master & {
+	.moderate &, .advanced & {
 		&:after {
 			position: absolute;
 			content: " ";
@@ -164,7 +164,7 @@ $skill-level-color: white;
 		}
 	}
 
-	.master & {
+	.advanced & {
 		&:before {
 			position: absolute;
 			content: " ";
@@ -192,6 +192,14 @@ $skill-level-color: white;
 	}
 
 	.skill-name {
+		display: none;
+	}
+
+	.skill-level-word {
+		display: none;
+	}
+
+	.skill-level-key {
 		display: none;
 	}
 }

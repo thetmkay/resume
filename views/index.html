@@ -38,13 +38,13 @@
             <div class="col-2 left">
                 <div class="skills-block-mod">
                     <div class="section-title">Skills</div>
+                    <span class="skill-level-key">(A)dvanced (M)oderate (N)ovice</span>
                     {% for skill in skills %}
                     <div class="skills-block {{skill.name | lower}}">
                         <div class="skill-name"># {{skill.name}}</div>
                         {% for word in skill.keywords %} {% include 'skill-token.html' %} {% endfor %}
                     </div>
                     {% endfor %}
-
                 </div>
                 <div class="languages-mod">
                     <div class="section-title">Languages</div>

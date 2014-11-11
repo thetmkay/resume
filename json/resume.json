@@ -105,7 +105,7 @@
         "name": "Languages",
         "level": "Moderate",
         "keywords": [
-            "HTML", "Javascript", "Sass", "Java",  "C","C++", "C#","PostgreSQL", "Python", "Ruby", "Assembly", "Haskell"
+            "HTML", "Javascript", "Sass", "Java",  "C","C++", "Haskell", "Python", "C#","PostgreSQL", "Ruby", "Assembly"
         ]
     }, {
         "name": "Frameworks",

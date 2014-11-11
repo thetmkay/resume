@@ -22,6 +22,11 @@ env.addFilter('date', function(date, format) {
   return moment(date).format(format);
 });
 
+env.addFilter('shorten', function(word) {
+  if(word)
+    return '(' + word.substr(0,1).toUpperCase() + ')';
+});
+
 
 env.express(app);
 
