@@ -24,12 +24,9 @@ module.exports = function(grunt) {
             script: 'server.js'
           }
         },
-        'node-inspector': {
-            dev: {}
-        },
         concurrent: {
             dev: {
-                tasks: ['nodemon', 'node-inspector', 'watch'],
+                tasks: ['nodemon', 'watch'],
                 options: {
                     logConcurrentOutput: true
                 }
@@ -53,7 +50,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-nodemon');
-    grunt.loadNpmTasks('grunt-node-inspector');
     grunt.loadNpmTasks('grunt-contrib-compass');
 
 
