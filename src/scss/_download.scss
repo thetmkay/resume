@@ -1,6 +1,7 @@
 .download-mod {
-	background-color: darken($link-blue, 10);
-	color: white;
+	//background-color: darken($link-blue, 10);
+  background-color: white;
+	//color: white;
 	font-family: $body-font;
 	padding: 2em 0;
 	text-align: center;
@@ -34,9 +35,10 @@
 .download-btn.bw {
 	background-color: white;
 	color: black;
+  border:solid 1px black;
 
 	&:hover {
-		background-color: #ccc;
+		background-color: #dadada;
 	}
 }
 
