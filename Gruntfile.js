@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
 	require('load-grunt-subtasks')(grunt,{
-			base:['../node_modules']
+			base:['./..']
 	});
 
     grunt.initConfig({
