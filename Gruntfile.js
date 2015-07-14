@@ -52,13 +52,6 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-env');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-concurrent');
-    grunt.loadNpmTasks('grunt-nodemon');
-    grunt.loadNpmTasks('grunt-contrib-compass');
-
-
     grunt.registerTask('build', ['compass']);
     grunt.registerTask('default', ['env:dev', 'build', 'concurrent:dev']);
     grunt.registerTask('production', ['env:prod', 'build', 'concurrent:prod']);
