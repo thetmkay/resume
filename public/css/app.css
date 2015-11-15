@@ -1,0 +1,906 @@
+/* line 850, ../../node_modules/gn-components/scss/_mixins.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 1, ../../src/scss/_universals.scss */
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen {
+  /* line 8, ../../src/scss/_universals.scss */
+  html, body {
+    background-color: white;
+  }
+
+  /* line 12, ../../src/scss/_universals.scss */
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* line 17, ../../src/scss/_universals.scss */
+  .resume-mod {
+    padding: 1em;
+  }
+}
+/* line 22, ../../src/scss/_universals.scss */
+.resume-mod {
+  font-family: "Open Sans";
+}
+
+/* line 26, ../../src/scss/_universals.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 30, ../../src/scss/_universals.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 43, ../../src/scss/_universals.scss */
+.link, .social-link {
+  color: #0976b4;
+  cursor: pointer;
+}
+/* line 38, ../../src/scss/_universals.scss */
+.link:hover, .social-link:hover {
+  color: #075683;
+}
+
+/* line 850, ../../node_modules/gn-components/scss/_mixins.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 3, ../../node_modules/gn-components/footer/footer.scss */
+.footer {
+  padding-top: 10px;
+  width: 100%;
+  font-family: 'Open Sans';
+  position: absolute;
+  bottom: 0;
+  height: 5em;
+}
+
+/* line 12, ../../node_modules/gn-components/footer/footer.scss */
+html {
+  height: 100%;
+}
+
+/* line 16, ../../node_modules/gn-components/footer/footer.scss */
+body {
+  min-height: 100%;
+  padding-bottom: 5em;
+  position: relative;
+}
+
+/* line 22, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-section {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* line 29, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-section.links {
+  padding-bottom: 1em;
+}
+
+/* line 33, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-section .link, .ftr-section .social-link {
+  border: none;
+  color: #aaa;
+}
+/* line 36, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-section .link:hover, .ftr-section .social-link:hover {
+  color: #ccc;
+  border: none;
+}
+
+/* line 43, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-title {
+  font-size: 10px;
+  font-weight: 400;
+  display: inline-block;
+}
+/* line 47, ../../node_modules/gn-components/footer/footer.scss */
+.ack .ftr-title {
+  text-align: left;
+  font-size: 12px;
+}
+
+/* line 53, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-link-mod {
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* line 59, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-link {
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+/* line 64, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-link:hover {
+  text-decoration: underline;
+}
+
+/* line 68, ../../node_modules/gn-components/footer/footer.scss */
+.ftr-link.border-right {
+  border-right: solid 1px #aaa;
+  padding-right: 10px;
+}
+
+/* line 73, ../../node_modules/gn-components/footer/footer.scss */
+.ack .ftr-link {
+  font-weight: 400;
+}
+
+@media print {
+  /* line 78, ../../node_modules/gn-components/footer/footer.scss */
+  .footer {
+    display: none;
+  }
+}
+/* line 3, ../../src/scss/_components.scss */
+.footer {
+  color: black;
+  max-width: 800px;
+  background-color: white;
+}
+
+/* line 10, ../../src/scss/_components.scss */
+.ftr-link, .ftr-link:active, .ftr-link:visited {
+  color: #0a86cc;
+}
+/* line 13, ../../src/scss/_components.scss */
+.ftr-link:hover, .ftr-link:active:hover, .ftr-link:visited:hover {
+  color: #0976b4;
+}
+
+/* line 2, ../../src/scss/_resume.scss */
+.resume-mod {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 8, ../../src/scss/_resume.scss */
+.resume-footer {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 15, ../../src/scss/_resume.scss */
+.col-1 {
+  width: 100%;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 15, ../../src/scss/_resume.scss */
+  .col-1 {
+    width: 70%;
+  }
+}
+
+/* line 23, ../../src/scss/_resume.scss */
+.col-2 {
+  padding: 0 0.5em;
+  width: 100%;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 23, ../../src/scss/_resume.scss */
+  .col-2 {
+    width: 30%;
+  }
+  /* line 30, ../../src/scss/_resume.scss */
+  .left .col-2 {
+    float: left;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 39, ../../src/scss/_resume.scss */
+  .right .col-1 {
+    float: right;
+    padding-right: 10px;
+  }
+  /* line 43, ../../src/scss/_resume.scss */
+  .left .col-1 {
+    float: left;
+    padding-left: 10px;
+  }
+}
+
+/* line 52, ../../src/scss/_resume.scss */
+.resume-hdr {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 52, ../../src/scss/_resume.scss */
+  .resume-hdr {
+    width: 70%;
+  }
+  /* line 62, ../../src/scss/_resume.scss */
+  .right .resume-hdr {
+    margin-left: 30%;
+    text-align: right;
+    padding-right: 10px;
+  }
+  /* line 68, ../../src/scss/_resume.scss */
+  .left .resume-hdr {
+    margin-right: 30%;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+/* line 76, ../../src/scss/_resume.scss */
+.bio {
+  font-size: 12px;
+  width: 100%;
+  padding: 1em;
+}
+
+/* line 82, ../../src/scss/_resume.scss */
+.resume-footer {
+  clear: both;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* line 90, ../../src/scss/_resume.scss */
+.no-style-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 95, ../../src/scss/_resume.scss */
+.no-style-list li {
+  text-indent: -5px;
+  margin-left: 5px;
+}
+
+/* line 105, ../../src/scss/_resume.scss */
+.social-link .icon {
+  margin-right: 10px;
+  background-color: #0976b4;
+  display: inline-block;
+  color: white;
+  padding: 7px 5px 7px 6px;
+  border-radius: 50%;
+}
+
+/* line 116, ../../src/scss/_resume.scss */
+.social-list {
+  list-style: none;
+}
+/* line 120, ../../src/scss/_resume.scss */
+.social-list li {
+  margin: 5px 0;
+}
+
+@media screen {
+  /* line 126, ../../src/scss/_resume.scss */
+  .social-link .twitter {
+    background-color: #55acee;
+  }
+  /* line 130, ../../src/scss/_resume.scss */
+  .social-link:hover .twitter {
+    background-color: #2795e9;
+  }
+  /* line 126, ../../src/scss/_resume.scss */
+  .social-link .home {
+    background-color: green;
+  }
+  /* line 130, ../../src/scss/_resume.scss */
+  .social-link:hover .home {
+    background-color: #004d00;
+  }
+  /* line 126, ../../src/scss/_resume.scss */
+  .social-link .github {
+    background-color: #666;
+  }
+  /* line 130, ../../src/scss/_resume.scss */
+  .social-link:hover .github {
+    background-color: #4d4d4d;
+  }
+  /* line 126, ../../src/scss/_resume.scss */
+  .social-link .linkedin {
+    background-color: #0976b4;
+  }
+  /* line 130, ../../src/scss/_resume.scss */
+  .social-link:hover .linkedin {
+    background-color: #075683;
+  }
+}
+/* line 147, ../../src/scss/_resume.scss */
+.name {
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 36px;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 147, ../../src/scss/_resume.scss */
+  .name {
+    font-size: 48px;
+    display: inline-block;
+  }
+}
+
+/* line 163, ../../src/scss/_resume.scss */
+.basic-row {
+  font-weight: 200;
+}
+
+/* line 167, ../../src/scss/_resume.scss */
+.section-title {
+  font-weight: 200;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  border-bottom: solid 1px #000;
+  text-align: right;
+  padding-right: 10px;
+  text-transform: lowercase;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 167, ../../src/scss/_resume.scss */
+  .section-title {
+    width: 100%;
+  }
+}
+
+/* line 182, ../../src/scss/_resume.scss */
+.section-list {
+  font-size: 12px;
+  padding-left: 0.5em;
+}
+
+/* line 187, ../../src/scss/_resume.scss */
+.block {
+  padding: 0 10px 10px 10px;
+}
+/* line 189, ../../src/scss/_resume.scss */
+.block.award-block {
+  padding: 0 10px;
+}
+
+/* line 195, ../../src/scss/_resume.scss */
+.block-mod {
+  padding-left: 10px;
+}
+
+/* line 199, ../../src/scss/_resume.scss */
+.skill-name {
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+/* line 1, ../../src/scss/_download.scss */
+.download-mod {
+  background-color: white;
+  font-family: "Open Sans";
+  padding: 2em 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* line 11, ../../src/scss/_download.scss */
+.download-txt {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 12px;
+  width: 100%;
+  padding: 0 2em;
+}
+
+/* line 19, ../../src/scss/_download.scss */
+.download-btn {
+  padding: 0.75em 2em;
+  margin: 0.5em;
+  display: inline-block;
+  font-weight: 200;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 28, ../../src/scss/_download.scss */
+.download-btn-mod {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em 0;
+}
+
+/* line 35, ../../src/scss/_download.scss */
+.download-btn.bw {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+/* line 40, ../../src/scss/_download.scss */
+.download-btn.bw:hover {
+  background-color: #dadada;
+}
+
+/* line 45, ../../src/scss/_download.scss */
+.download-btn.color {
+  background-color: #F59330;
+  color: white;
+}
+/* line 49, ../../src/scss/_download.scss */
+.download-btn.color:hover {
+  background-color: #f3810e;
+}
+
+/* line 4, ../../src/scss/_block.scss */
+.descr {
+  font-size: 11px;
+}
+/* line 7, ../../src/scss/_block.scss */
+.descr .descr-list {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 12, ../../src/scss/_block.scss */
+  .two-col .descr {
+    width: 75%;
+  }
+}
+
+/* line 19, ../../src/scss/_block.scss */
+.block-header {
+  width: 100%;
+  text-align: center;
+}
+/* line 23, ../../src/scss/_block.scss */
+.block-header .title {
+  width: 100%;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 25, ../../src/scss/_block.scss */
+  .two-col .block-header .title {
+    width: 75%;
+    float: left;
+  }
+}
+/* line 33, ../../src/scss/_block.scss */
+.block-header .date {
+  width: 100%;
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 33, ../../src/scss/_block.scss */
+  .block-header .date {
+    width: 25%;
+    float: right;
+    clear: right;
+  }
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 19, ../../src/scss/_block.scss */
+  .block-header {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 735px), print and (min-width: 500px) {
+  /* line 52, ../../src/scss/_block.scss */
+  .two-col .block-header {
+    padding-bottom: 1.5em;
+  }
+}
+
+/* line 60, ../../src/scss/_block.scss */
+.date {
+  font-size: 12px;
+  padding-top: 2px;
+  font-weight: 700;
+}
+
+/* line 66, ../../src/scss/_block.scss */
+.award-block .title {
+  font-size: 14px;
+}
+
+/* line 70, ../../src/scss/_block.scss */
+.title {
+  font-size: 16px;
+}
+
+/* line 74, ../../src/scss/_block.scss */
+.bold {
+  font-weight: 700;
+}
+
+/* line 78, ../../src/scss/_block.scss */
+.italics {
+  font-style: italic;
+}
+
+@media screen {
+  /* line 14, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod {
+    color: white;
+  }
+  /* line 18, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.moderate {
+    background-color: #36802D;
+  }
+  /* line 21, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.moderate:hover {
+    background-color: #2b6624;
+  }
+  /* line 26, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.advanced {
+    background-color: #419a36;
+  }
+  /* line 29, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.advanced:hover {
+    background-color: #36802D;
+  }
+  /* line 34, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.novice {
+    background-color: #2b6624;
+  }
+  /* line 37, ../../src/scss/_skill-token.scss */
+  .skills-block.languages .skill-token-mod.novice:hover {
+    background-color: #204b1a;
+  }
+
+  /* line 14, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod {
+    color: white;
+  }
+  /* line 18, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.moderate {
+    background-color: #029DAF;
+  }
+  /* line 21, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.moderate:hover {
+    background-color: #027d8c;
+  }
+  /* line 26, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.advanced {
+    background-color: #02bdd2;
+  }
+  /* line 29, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.advanced:hover {
+    background-color: #029DAF;
+  }
+  /* line 34, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.novice {
+    background-color: #027d8c;
+  }
+  /* line 37, ../../src/scss/_skill-token.scss */
+  .skills-block.frameworks .skill-token-mod.novice:hover {
+    background-color: #015e68;
+  }
+
+  /* line 54, ../../src/scss/_skill-token.scss */
+  .skills-block.tools .skill-token-mod {
+    color: white;
+    background-color: #E33258;
+  }
+  /* line 58, ../../src/scss/_skill-token.scss */
+  .skills-block.tools .skill-token-mod:hover {
+    pointer: cursor;
+    background-color: #d41d44;
+  }
+
+  /* line 67, ../../src/scss/_skill-token.scss */
+  .skills-block.processes .skill-token-mod {
+    color: white;
+    background-color: #F59330;
+  }
+  /* line 71, ../../src/scss/_skill-token.scss */
+  .skills-block.processes .skill-token-mod:hover {
+    pointer: cursor;
+    background-color: #f3810e;
+  }
+}
+/* line 82, ../../src/scss/_skill-token.scss */
+.skill-token-mod {
+  padding: 0.35em;
+  margin: 0.1em;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+/* line 180, ../../src/scss/_skill-token.scss */
+.skill-token {
+  font-size: 12px;
+  line-height: 16px;
+  height: 16px;
+  position: relative;
+}
+
+@media screen {
+  /* line 111, ../../src/scss/_skill-token.scss */
+  .skill-token:hover {
+    cursor: pointer;
+  }
+  /* line 116, ../../src/scss/_skill-token.scss */
+  .novice .skill-token:hover .skill-level, .moderate .skill-token:hover .skill-level, .advanced .skill-token:hover .skill-level {
+    -webkit-animation: whitethree 0.5s ease-in 0;
+    -moz-animation: whitethree 0.5s ease-in 0;
+    animation: whitethree 0.5s ease-in 0;
+  }
+  @-webkit-keyframes whitethree {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    28% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    33% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @-moz-keyframes whitethree {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    28% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    33% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @keyframes whitethree {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    28% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    33% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  /* line 124, ../../src/scss/_skill-token.scss */
+  .moderate .skill-token:hover:after, .advanced .skill-token:hover:after {
+    -webkit-animation: whitetwo 0.5s ease-in 0s;
+    -moz-animation: whitetwo 0.5s ease-in 0s;
+    animation: whitetwo 0.5s ease-in 0s;
+  }
+  @-webkit-keyframes whitetwo {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    61% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    66% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @-moz-keyframes whitetwo {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    61% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    66% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @keyframes whitetwo {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    61% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    66% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  /* line 132, ../../src/scss/_skill-token.scss */
+  .advanced .skill-token:hover:before {
+    -webkit-animation: whiteone 0.5s ease-in 0s;
+    -moz-animation: whiteone 0.5s ease-in 0s;
+    animation: whiteone 0.5s ease-in 0s;
+  }
+  @-webkit-keyframes whiteone {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    95% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @-moz-keyframes whiteone {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    95% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  @keyframes whiteone {
+    0% {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    95% {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      background: white;
+    }
+    100% {
+      background: white;
+    }
+  }
+  /* line 141, ../../src/scss/_skill-token.scss */
+  .novice .skill-token, .moderate .skill-token, .advanced .skill-token {
+    padding-right: 1em;
+  }
+  /* line 145, ../../src/scss/_skill-token.scss */
+  .novice .skill-token .skill-level, .moderate .skill-token .skill-level, .advanced .skill-token .skill-level {
+    position: absolute;
+    right: 0;
+    bottom: 1.5px;
+    width: 0.6em;
+    height: 3px;
+    background-color: white;
+  }
+  /* line 156, ../../src/scss/_skill-token.scss */
+  .moderate .skill-token:after, .advanced .skill-token:after {
+    position: absolute;
+    content: " ";
+    width: 0.6em;
+    height: 3px;
+    background-color: white;
+    right: 0;
+    bottom: 6.5px;
+  }
+  /* line 168, ../../src/scss/_skill-token.scss */
+  .advanced .skill-token:before {
+    position: absolute;
+    content: " ";
+    width: 0.6em;
+    height: 3px;
+    background-color: white;
+    right: 0;
+    bottom: 11.5px;
+  }
+
+  /* line 194, ../../src/scss/_skill-token.scss */
+  .skill-name {
+    display: none;
+  }
+
+  /* line 198, ../../src/scss/_skill-token.scss */
+  .skill-level-word {
+    display: none;
+  }
+
+  /* line 202, ../../src/scss/_skill-token.scss */
+  .skill-level-key {
+    display: none;
+  }
+}
+@media print {
+  @page {
+    margin: 0.8cm;
+  }
+  /* line 5, ../../src/scss/_print.scss */
+  .resume-hdr {
+    width: 70%;
+    margin-left: 30%;
+  }
+  /* line 8, ../../src/scss/_print.scss */
+  .resume-hdr .name {
+    font-size: 40px;
+  }
+
+  /* line 12, ../../src/scss/_print.scss */
+  .link, .social-link {
+    color: #111;
+    cursor: pointer;
+  }
+  /* line 38, ../../src/scss/_universals.scss */
+  .link:hover, .social-link:hover {
+    color: black;
+  }
+
+  /* line 16, ../../src/scss/_print.scss */
+  .social-link .icon {
+    color: #111;
+    background: none;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 1em;
+  }
+
+  /* line 24, ../../src/scss/_print.scss */
+  .skill-token {
+    color: #111;
+  }
+
+  /* line 32, ../../src/scss/_print.scss */
+  .skill-token-mod {
+    background: none;
+    border: solid 1px black;
+    padding: 2px 5px;
+  }
+
+  /* line 37, ../../src/scss/_print.scss */
+  .skill-name {
+    padding: 0.25em 0;
+  }
+
+  /* line 40, ../../src/scss/_print.scss */
+  .block {
+    padding: 0 10px;
+  }
+
+  /* line 43, ../../src/scss/_print.scss */
+  .screen-only {
+    display: none;
+  }
+
+  /* line 46, ../../src/scss/_print.scss */
+  .skill-level-word {
+    font-size: 10px;
+  }
+
+  /* line 49, ../../src/scss/_print.scss */
+  .skill-level-key {
+    text-align: center;
+    font-size: 10px;
+  }
+}
