@@ -3,9 +3,14 @@
   "version": "0.0.2",
   "description": "resume",
   "main": "app.js",
+  "engines": {
+    "node": "~4.1.2",
+    "npm": "3.3.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "ENV=development node server.js",
+	"production":"ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,20 +23,10 @@
   },
   "homepage": "https://github.com/thetmkay/resume",
   "dependencies": {
-    "components": "thetmkay/gn-components",
+    "gn-components": "thetmkay/gn-components",
     "consolidate": "~0.10.0",
     "express": "^4.2.0",
-    "grunt": "^0.4.5",
-    "grunt-concurrent": "^1.0.0",
-    "grunt-contrib-compass": "^1.0.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-env": "^0.4.2",
-    "grunt-nodemon": "^0.3.0",
-    "load-grunt-subtasks": "thetmkay/load-grunt-subtasks",
     "moment": "~2.8.3",
     "nunjucks": "~1.1.0"
-  },
-  "devDependencies": {
-    "grunt-node-inspector": "^0.1.5"
   }
 }

@@ -1,5 +1,0 @@
-@import "gn/mixins";
-
-@mixin dualmq($screen, $print:0) {
-    @media screen and (min-width: $screen), print and (min-width:$print) { @content; }
-}
