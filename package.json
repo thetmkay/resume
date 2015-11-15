@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "resume",
   "main": "app.js",
   "engines": {
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ENV=development node server.js",
-	"production":"ENV=production node server.js"
+    "production": "ENV=production node server.js"
   },
   "repository": {
     "type": "git",
