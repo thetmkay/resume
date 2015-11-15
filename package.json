@@ -1,6 +1,6 @@
 {
   "name": "gn-resume",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "resume",
   "main": "app.js",
   "engines": {
@@ -25,7 +25,7 @@
     "gn-components": "thetmkay/gn-components",
     "consolidate": "^0.10.0",
     "moment": "^2.10.3",
-	"express":"^4.13.3",
+    "express": "^4.13.3",
     "nunjucks": "^1.1.0"
   }
 }
