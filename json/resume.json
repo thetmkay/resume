@@ -6,7 +6,7 @@
         "email": "me@georgenishimura.com",
         "phone": "+447478676935",
         "website": "http://georgenishimura.com/resume",
-        "summary": "George is a full-stack software developer interested in user experience and problem-solving. He is currently studying in his final year at Imperial College, and has previously interned at Upstatement and Microsoft.",
+        "summary": "George is a full-stack software developer interested in building products that solve real problems and users love. He graduated from Imperial College, and has previously interned at Upstatement and Microsoft.",
         "location": {
             "address": "40 Palace Mansions",
             "postalCode": "W14 8QW",
@@ -56,18 +56,6 @@
             "Windows App UI Automation and tools script authoring",
             "Feature test owner and member of scrum"
         ]
-    }, {
-        "company": "Griffins FRC Team 1884",
-        "position": "Mentor",
-        "website": "http://griffins1884.com",
-        "startDate": "2012-01-04",
-        "endDate": "2014-04-21",
-        "summary": "Annual mentoring of high school students in Team 1884, the UK's only First Robotics Competition team",
-        "highlights": [
-            "Fellowship award winner, former captain and member since 07/08",
-            "Teach strategy, engineering design, programming & electronics",
-            "Six-week build season followed by a competition in the US"
-        ]
     }],
     "volunteer": [],
     "education": [{
@@ -76,7 +64,7 @@
         "studyType": "Masters of Engineering (undergraduate)",
         "startDate": "2011-10-01",
         "endDate": "2015-06-28",
-        "gpa": "Predicted 1st",
+        "gpa": "1st Class Honours",
         "courses": [
             "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Machine Learning"
         ]
@@ -90,6 +78,11 @@
         "courses":[]
     }],
     "awards": [{
+        "title": "Corporate Partnership Programme Award Winner",
+        "date": "2013-06-19",
+        "awarder": "Department of Computing",
+        "summary": "Excellence award for master's thesis: (<a href=\"http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/g.nishimura.pdf\" class=\"link\">Déjà Vu: Classification of Memory Using Eye Movements</a> - in conjunction with < a href=\"http://www.imperial.ac.uk/people/a.faisal\" class=\"link\">Dr. Aldo Faisal's</a> <a href=\"http://www.faisallab.com/\" class=\"link\">Brain & Behaviour Lab</a> at Imperial College"
+    },{
         "title": "2nd Year Group Project Prize Winner",
         "date": "2013-06-19",
         "awarder": "IBM",
@@ -97,7 +90,7 @@
     },{
         "title": "Most Commerically Viable Product",
         "date": "2014-03-09",
-        "awarder": "Playfair Capital ",
+        "awarder": "Playfair Capital",
         "summary": "For subbr at <a href=\"http://ichack.org\" class=\"link\">ICHack</a>, a Google Glass app that displayed subtitles (<a href=\"http://georgenishimura.com/subbr\" class=\"link\">georgenishimura.com/subbr</a>)"
     }],
     "publications": [],
@@ -105,19 +98,19 @@
         "name": "Languages",
         "level": "Moderate",
         "keywords": [
-            "HTML", "Javascript", "Sass", "Java",  "C","C++", "Haskell", "Python", "C#", "PostgreSQL","Ruby", "Assembly"
+            "HTML", "Javascript", "Sass", "Java",  "Objective-C", "Haskell", "C#", "SQL"
         ]
     }, {
         "name": "Frameworks",
         "level": "Moderate",
         "keywords": [
-            "Node.js", "jQuery", "Angular", "Grunt", "Express", "WordPress",  "Mongo", "Meteor", "iOS", "ASP.NET"
+            "Node.js", "jQuery", "Angular", "Express", "WordPress", "iOS"
         ]
     }, {
         "name": "Tools",
         "level": "Moderate",
         "keywords": [
-            "Git", "Sublime Text", "Unix", "Xcode", "Eclipse", "Vim", "Office", "Photoshop"
+            "Git", "Sublime Text", "Unix", "Xcode", "Eclipse", "Vim"
         ]
     }, {
         "name": "Processes",
