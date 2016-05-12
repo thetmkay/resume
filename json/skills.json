@@ -11,8 +11,8 @@
     "C":"moderate",
     "Objective-C":"moderate",
     "C++":"moderate",
-    "C#":"novice",
-    "Haskell":"moderate",
+    "C#":"moderate",
+    "Haskell":"novice",
     "Prolog":"novice",
     "Assembly":"novice",
     "Bash":"novice",
@@ -26,13 +26,13 @@
     "WordPress":"moderate",
     "Angular":"moderate",
     "Node.js":"advanced",
-    "Express":"moderate",
+    "Express":"advanced",
     "Mongo":"novice",
     "PostgreSQL":"novice",
     "SQL":"novice",
     "ASP.NET":"novice",
     "Meteor":"novice",
     "Grunt":"moderate",
-    "iOS": "novice",
-    "jQuery": "moderate"
+    "iOS": "moderate",
+    "jQuery": "advanced"
 }

@@ -8,8 +8,8 @@
         "website": "http://georgenishimura.com/resume",
         "summary": "George is a full-stack software developer interested in building products that solve real problems and users love. He graduated from Imperial College, and has previously interned at Upstatement and Microsoft.",
         "location": {
-            "address": "40 Palace Mansions",
-            "postalCode": "W14 8QW",
+            "address": "63 Aegean Apartments",
+            "postalCode": "E16 1AR",
             "city": "London",
             "countryCode": "UK",
             "region": "London"
@@ -33,6 +33,15 @@
         }]
     },
     "work": [{
+        "company": "Entrepreneur First",
+        "position": "Cohort Member",
+        "website": "http://joinef.com",
+        "startDate": "2015-08-15",
+        "endDate": "2015-12-04",
+        "summary": "Member of the EF5 Cohort, a program in London which helps individuals build deep-tech startups",
+        "highlights": [
+       ]
+    }, {
         "company": "Upstatement",
         "position": "Development Intern",
         "website": "http://upstatement.com",
@@ -56,6 +65,15 @@
             "Windows App UI Automation and tools script authoring",
             "Feature test owner and member of scrum"
         ]
+    }, {
+        "company": "Griffins FRC Team 1884",
+        "position": "Mentor",
+        "website": "http://griffins1884.com",
+        "startDate": "2012-01-01",
+        "endDate": "2014-04-27",
+        "summary": "Mentor of London high-school FIRST robotics competition team",
+        "highlights": [
+         ]
     }],
     "volunteer": [],
     "education": [{
@@ -66,7 +84,7 @@
         "endDate": "2015-06-28",
         "gpa": "1st Class Honours",
         "courses": [
-            "Software Engineering", "Networks & Communication", "Human Centered Design", "Advanced Databases", "Machine Learning"
+            "Software Engineering", "Machine Learning"
         ]
     }, {
         "institution": "American School in London",
@@ -81,7 +99,7 @@
         "title": "Corporate Partnership Programme Award Winner",
         "date": "2013-06-19",
         "awarder": "Department of Computing",
-        "summary": "Excellence award for master's thesis: (<a href=\"http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/g.nishimura.pdf\" class=\"link\">Déjà Vu: Classification of Memory Using Eye Movements</a> - in conjunction with <a href=\"http://www.imperial.ac.uk/people/a.faisal\" class=\"link\">Dr. Aldo Faisal's</a> <a href=\"http://www.faisallab.com/\" class=\"link\">Brain & Behaviour Lab</a> at Imperial College"
+        "summary": "Excellence award for master's thesis: <a href=\"http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/g.nishimura.pdf\" class=\"link\">Déjà Vu: Classification of Memory Using Eye Movements</a> - in conjunction with <a href=\"http://www.imperial.ac.uk/people/a.faisal\" class=\"link\">Dr. Aldo Faisal's</a> <a href=\"http://www.faisallab.com/\" class=\"link\">Brain & Behaviour Lab</a> at Imperial College"
     },{
         "title": "2nd Year Group Project Prize Winner",
         "date": "2013-06-19",
@@ -98,25 +116,19 @@
         "name": "Languages",
         "level": "Moderate",
         "keywords": [
-            "HTML", "Javascript", "Sass", "Java",  "Objective-C", "Haskell", "C#", "SQL"
+            "Javascript", "Java", "Sass", "HTML", "Objective-C", "C#", "Haskell", "SQL"
         ]
     }, {
         "name": "Frameworks",
         "level": "Moderate",
         "keywords": [
-            "Node.js", "jQuery", "Angular", "Express", "WordPress", "iOS"
+            "Node.js", "jQuery", "Express", "WordPress", "iOS", "Angular"
         ]
     }, {
         "name": "Tools",
         "level": "Moderate",
         "keywords": [
             "Git", "Sublime Text", "Unix", "Xcode", "Eclipse", "Vim"
-        ]
-    }, {
-        "name": "Processes",
-        "level": "Moderate",
-        "keywords": [
-            "Scrum", "BDD", "XP"
         ]
     }],
     "languages": [{
@@ -137,6 +149,11 @@
     }, {
         "name": "Ultimate Frisbee",
         "keywords": ["Imperial discDoctors"]
+    }, {
+        "name": "Football",
+        "keywords": [
+					"Liverpool FC supporter"	
+				]
     }, {
         "name": "Hackathons & Tech Meetups",
         "keywords": []
